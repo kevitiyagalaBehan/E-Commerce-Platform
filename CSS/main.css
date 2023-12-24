@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+body {
+    margin: 0%;
+    width: 100%;
+}
+header {
+    position: fixed;
+    height: 370px;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+}
+.container {
+    margin: auto;
+    width: 100%;
+}
+.image-container {
+    position: relative;
+    height: 350px;
+    width: 100%;
+}
+.image-container img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.header-body-section {
+    height: 350px;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    color: white;
+}
+.container-header-body {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.header-body-content {
+    height: 400px;
+    position: relative;
+    top: -50px;
+}
+.nav {
+    font-weight: 550;
+    height: 0px; 
+}
+.container-nav {
+    display: flex;
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    z-index: 2;
+}
+.nav ul li {
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.nav ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+.container-header-body h1 {
+    padding-top: 80px;
+    font-size: 100px;
+    color: white;
+}
+.container-header-body h3 {
+    margin-top: -25px;
+    font-size: xx-large;
+    font-weight: lighter;
+    color: white;
+}
+.items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    margin: 15px;
+    padding-top: 370px;
+}
+.item img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+.item h3 {
+    font-size: x-large;
+    margin-top: 2px;
+    text-align: center;
+}
+.item img:hover {
+    transform: scale(1.04);
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    margin-top: 44px;
+    padding: 44px;
+    text-align: center;
+}
+.footer .column {
+    margin: 20px;
+}

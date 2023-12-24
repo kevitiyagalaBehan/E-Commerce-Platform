@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #2980B9, #8E44AD);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+}
+
+.center h1 {
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.center form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .txt_field {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 25px 0;
+}
+
+.txt_field input {
+    text-transform: none;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.txt_field label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.submit_button {
+    text-align: center;
+}
+
+.submit_button input {
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.btn {
+    height: 35px;
+    background:#2691D9;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+    width: 100%;
+}
+
+.btn:hover {
+    opacity: 0.82;
+}
+
+.btn1 {
+    height: 35px;
+    background:#2691D9; 
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    padding: 0px 10px;
+    margin-left: 160px;
+    margin-bottom: 10px;
+}
+
+.btn1:hover {
+    opacity: 0.82;
+}
+
+.txt_field span::before {
+    content: '';
+    position: absolute;
+    top: 40;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #2691D9;
+    transition: 0.5s;
+}
+
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label {
+    top: -5px;
+    color: #2691D9;
+}
+
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before {
+    width: 100%;
+}
+
+.submit_link {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+
+.submit_link a {
+    color: #2691D9;
+    text-decoration: none;
+}
+
+.submit_link a:hover {
+    text-decoration: underline;
+}
+
+.message {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
