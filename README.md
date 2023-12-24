@@ -29,12 +29,7 @@ Modern e-commerce platform for a restaurant, allowing users to browse and order 
 - order
 - products
 
-# Database Setup
-- Database Name: "melony_rest"
-- Username: "root"
-- Password: ""
-
 # Run the project
 - Download the project source directories.
-- Import database.sql file.
+- Create database 
 - Run the main.php file through the WAMP/XAMPP server.
