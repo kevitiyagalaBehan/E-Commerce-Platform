@@ -42,6 +42,8 @@
                     ?>
 
                     <ul>
+                        <li><a href="products.php">Add</a></li>
+                        <li><a href="cart.php">Cart</a></li>
                         <li><a href="logout.php">Log Out</a></li>
                     </ul>
                 </div>
@@ -76,7 +78,7 @@
         <div class="footer">
             <div class="column">
                 <h2>About Us</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Welcome to 'MELONY' where flavor meets convenience! Explore our menu of delicious pizzas, pastas, refreshing beverages, and fast food favorites.</p>
             </div>
             <div class="column">
                 <h2>Contact Us</h2>
